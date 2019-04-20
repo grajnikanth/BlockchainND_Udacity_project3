@@ -18,17 +18,17 @@ The file __BlockController.js__ in the root directory has all the code for serve
 Delete the chaindata/ folder created each time the app.js file is executed to delete the mock Blockchain data created.
 
 
-##Node.js Frameworks
+## Node.js Frameworks
 
 In this project I used the Hapi.js framworks to create the localhost server at port 8000.
 
-##GET endpoint
+## GET endpoint
 
 The web API GET endpoint responds to a request using a URL path with a block height parameter or properly handles an error if the height parameter is out of bounds.
 
 The URL is http:localhost:8000/api/block/:index
 
-##POST endpoint
+## POST endpoint
 
 The web API POST endpoint allows posting a new block with the data payload option to add data to the block body. Block body supports a string of text.
 
