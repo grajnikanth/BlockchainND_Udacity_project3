@@ -20,7 +20,7 @@ Delete the chaindata/ folder created each time the app.js file is executed to de
 
 ## Node.js Frameworks
 
-In this project I used the Hapi.js framworks to create the localhost server at port 8000.
+In this project I used the Hapi.js frameworks to create the localhost server at port 8000.
 
 ## GET endpoint
 
