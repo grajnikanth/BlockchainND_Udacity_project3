@@ -1,5 +1,4 @@
-# RESTful Web API with Node.js Framework 
-# Connect Private Blockchain to Front-End Client via APIs
+# RESTful Web API - Connect Private Blockchain 
 
 This project is part of the Udacity Blockchain Nanodegree course. In this project, we connected the previously developed private Blockchain to Front-End Client via APIs. GET and POST endpoints were created. GET endpoint implemented will let the client obtain a Block information given the Block Height. POST endpoint let's the client udpate the Blockchain by posting new blocks to the private Blockchain. The code from the project for the persistent private blockchain was used as the basis for this code. In addition, Hapi.js framework was used to create the API. Postman was used to test the web services developed.
 
