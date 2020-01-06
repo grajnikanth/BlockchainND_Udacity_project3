@@ -1,6 +1,7 @@
-# Project #3. Connect Private Blockchain to Front-End Client via APIs
+# RESTful Web API with Node.js Framework 
+# Connect Private Blockchain to Front-End Client via APIs
 
-This is Project 3, Connect Private Blockchain to Front-End Client via APIs, in this project I created the GET and POST endpoints, to be able to obtain a Block from my private Blockchain and to post new blocks to my private Blockchain. The code from Project 2 for the persistent private blockchain was used as the basis for this code. In addition, Hapi.js framework was used to create the API.
+This project is part of the Udacity Blockchain Nanodegree course. In this project, we connected the previously developed private Blockchain to Front-End Client via APIs. GET and POST endpoints were created. GET endpoint implemented will let the client obtain a Block information given the Block Height. POST endpoint let's the client udpate the Blockchain by posting new blocks to the private Blockchain. The code from the project for the persistent private blockchain was used as the basis for this code. In addition, Hapi.js framework was used to create the API. Postman was used to test the web services developed.
 
 ## Setup project for Review.
 
@@ -35,6 +36,10 @@ The web API POST endpoint allows posting a new block with the data payload optio
 The URL is http://localhost:8000/block
 
 If the block data posted is empty a block will not be added and an error is reported back to the client browser.
+
+## Testing Endpoints of API
+To test the web services developed in this project the tool "Postman" was used. Postman is a collaboration platform for API development. Postman was developed for sending HTTP requests in a simple and quick way.
+
 
 
 ## What did I learn with this Project
